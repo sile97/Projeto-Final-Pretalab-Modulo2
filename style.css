@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  
+}
+
+#menu {
+  background-color: #2d87a0;
+}
+
+#menu ul {
+  display:flex;
+  padding: 30px;
+  justify-content: right;
+  align-items: flex-end;
+  gap: 150px;
+}
+
+#menu li a {
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  color: #e9edede8;
+  text-decoration: none;
+}
+
+#menu li {
+  list-style: none;
+}
+
+#apresentacao {
+
+    flex-direction: column;
+    height: 400px;
+    background-color:aliceblue;
+    font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  width: 50%; 
+}
+
+#apresentacao h2 {
+    margin-left: 500px;
+}
+
+#apresentacao h3 {
+    margin-left: 300px;
+}
+.foto {
+    margin-left: 450px;
+    Height: 150px;
+    width: 150px;
+       
+}
+
+#formacao {
+    align-items: center;
+    background-color:#2d87a0;
+    font-family: 'Roboto Mono', monospace;
+    color:#ecf1f1 ;
+    font-weight: 700;
+    width: 50%;
+}
+
+#portfolio {
+    background-color:aliceblue;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    width: 50%;
+
+}
+
+#contato {
+    
+    align-items: center;
+    background-color:#2d87a0;
+    font-family: 'Roboto Mono', monospace;
+    color:#ecf1f1 ;
+    font-weight: 700;
+    width: 50%;
+}
